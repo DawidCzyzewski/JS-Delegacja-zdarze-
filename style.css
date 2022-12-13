@@ -1,0 +1,33 @@
+.wrapper {
+  /* border: 1px solid red;
+  padding: 5px;
+  width: 100px; */
+
+  display: flex;
+  flex-wrap: wrap; /* musimy go zawijać, bo wyjedzie poza ekran */
+  gap: 10px;
+  /* line-height: 100px; */
+}
+
+.box {
+  /* border: 1px solid green; */
+
+  display: block;
+  cursor: pointer;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box:hover {
+  background-color: brown;
+}
+.innerBoxBtn {
+  background-color: aqua;
+}
